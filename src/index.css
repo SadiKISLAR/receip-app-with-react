@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
 .bgcontainer {
-    background-image: url("https://st2.depositphotos.com/1040166/5971/i/950/depositphotos_59713675-stock-photo-food-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/1412206.jpg");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
