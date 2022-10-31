@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgcontainer {
+    background-image: url("https://st2.depositphotos.com/1040166/5971/i/950/depositphotos_59713675-stock-photo-food-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}
