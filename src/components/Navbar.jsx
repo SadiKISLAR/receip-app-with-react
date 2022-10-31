@@ -10,10 +10,15 @@ const Navbar = () => {
             color: isActive ? "red" : ""
           })}>
           Reciepe
-          </NavLink>
+        </NavLink>
       </div>
       <div className='flex gap-5 text-grey-600'>
-          <NavLink className={"hover:text-blue-400"} >About</NavLink>
+        <NavLink className="hover:text-blue-400 transition ease-in-out delay-100 hover:scale-125" to="/about" style={({ isActive }) => ({
+          color: isActive ? "red" : ""
+        })}>About</NavLink>
+        <a className="hover:text-blue-400 transition ease-in-out delay-100 hover:scale-125" href="https://github.com/SadiKISLAR"
+          target="_blank">GITHUB</a>
+          <NavLink to="/"> LOGOUT</NavLink>
       </div>
     </div>
 
