@@ -12,13 +12,12 @@ const About = () => {
           />
           <div className="text-center w-[25rem] ">
             <p className="text-2xl mt-5 font-semibold  ">
-              My name is <span className="text-red-600">Mustafa</span> , 18
+              My name is <span className="text-red-600">Şadi</span> , 39
               years old React developer from Turkey
             </p>
 
             <p className="text-xl mt-5 leading-8">
-              In high school i start to learn coding and software things little
-              and little until today, and in april 2022, I start to learn
+              I'm a ex-navyman, I start to learn
               front-end finally I'm learning reactjs.
             </p>
           </div>
