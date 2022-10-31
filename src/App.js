@@ -1,8 +1,19 @@
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Details from "./pages/Detail"
+
+import { BroowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
-  return (<div className="bg-slate-300 text-3xl">
-    hello
-    </div>
-  );
+  return
+  <BroowserRouter>
+    <Routes>
+      <Route path="/" element={<Login/>} />
+      
+    </Routes>
+
+  </BroowserRouter>
 }
 
 export default App;
