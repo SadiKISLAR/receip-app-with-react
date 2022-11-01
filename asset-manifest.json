@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/receip-app-with-react/static/css/main.ffd18265.css",
+    "main.js": "/receip-app-with-react/static/js/main.b8e34ef4.js",
+    "index.html": "/receip-app-with-react/index.html",
+    "main.ffd18265.css.map": "/receip-app-with-react/static/css/main.ffd18265.css.map",
+    "main.b8e34ef4.js.map": "/receip-app-with-react/static/js/main.b8e34ef4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffd18265.css",
+    "static/js/main.b8e34ef4.js"
+  ]
+}
